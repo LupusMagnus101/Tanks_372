@@ -212,7 +212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &268587509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,6 +609,22 @@ PrefabInstance:
     - target: {fileID: 2204552607308046964, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
       propertyPath: m_MaxLaunchForce
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204552607313201094, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204552607313201094, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204552607313208138, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204552607313208138, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2204552607318958738, guid: 7fdbd076ee75a4b21ae778c47c39db3e, type: 3}
       propertyPath: m_LocalPosition.x
